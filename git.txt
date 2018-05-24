@@ -1,0 +1,30 @@
+Seting up (local) git:
+sudo apt install git
+git config --global user.name ""
+git config --global user.email ""
+
+--------------------------------------------
+Setting up git in a directory 
+
+git init - to start tracking files in a directory 
+git status - to see the status of files in that directory 
+git add filename/-A - to add file/ to add all files that is/are to be tracked (stage)
+git rm --cached filename - to remove file that is being tracked 
+git commit -m "Message" - to commit the files addded with a message
+git reset --soft HEAD~1/^ - to undo the last commit
+git help command - to open GIT man
+git log - to see the log 
+git diff filename - to see the difference between unstaged version and committed version
+git checkout readme.txt - reverts the modified file back to last commit, if not committed.
+
+-----------------------------------------------
+
+Branching: 
+git branch - to see the existing branch
+git branch branch_name - to create a new branch
+git branch -d branch_name - to delete the branch but it shouldn't be the current branch
+git checkout branch_name - to change the current branch to the name specifeid 
+git checkout -b branch_name - to create a new branch and switch to it 
+git merge other_branch_name - to merge the updates made in two branches into one 
+
+-------------------------------------------------
