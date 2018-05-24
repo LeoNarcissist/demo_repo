@@ -28,3 +28,14 @@ git checkout -b branch_name - to create a new branch and switch to it
 git merge other_branch_name - to merge the updates made in two branches into one 
 
 -------------------------------------------------
+
+Setting up remote git (on Github):
+
+git remote - to check if remote git exists/Returns the name of the remote git
+git remote add git_name gitHub_link - adds new remote repository to the local repository and git_name is the name assigned to remote repositroy  
+git push -u git_name branch_name - to push the local repository to remote and -u is the flag which defines that git_name is the default remote repo
+git push - to push to the before specified branch
+git push git_name branch_name - to push to a different branch 
+git pull - to get updates from remote repository 
+git clone git_link - to copy a repository from gitHub to local storage 
+
