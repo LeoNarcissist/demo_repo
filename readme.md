@@ -21,4 +21,4 @@ of CODE
 
 This is how you make [a link](https://github.com/LeoNarcissist)
 
-![This is an image](https://github.com/LeoNarcissist/demo_repo/blob/master/lost_soul.jpeg)
+![This is an image](https://github.com/LeoNarcissist/demo_repo/blob/master/lost_soul.jpg)
